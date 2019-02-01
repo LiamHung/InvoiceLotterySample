@@ -1,0 +1,152 @@
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: .75rem;
+}
+
+
+body {
+    background: #9CECFB;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(46, 233, 146), rgb(169, 255, 98), rgb(230, 255, 160));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(46, 233, 146), rgb(169, 255, 98), rgb(230, 255, 160));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.card-signin {
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-signin .card-title {
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.card-signin .card-img-left {
+    width: 45%;
+    /* Link to your background image using in the property below! */
+    background: scroll center url('invoice-min.jpg');
+    background-size: cover;
+}
+
+.card-signin .card-body {
+    padding: 2rem;
+}
+
+.form-signin {
+    width: 100%;
+}
+  
+.form-signin .btn {
+    font-size: 90%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s;
+}
+
+.form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+  
+.form-label-group input {
+    height: auto;
+    border-radius: 2rem;
+
+}
+
+.btn-google {
+    color: white;
+    background-color: #ea4335;
+}
+
+
+h2 {
+    font-size: 1.2rem;
+}
+
+.the_numbers {
+    color: red;
+}
+
+
+
+.floatboard {
+    display: none;
+    width: 80%;
+    padding: 3rem 2rem;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, 0); /*J3小 from stackoverflow!!???*/
+    margin-bottom: 3%;
+    background-color: white;
+    z-index: 1;
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.form_btn_bar {
+    margin: 0.2rem auto 0.2rem auto;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2.5rem;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.the_close {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+.particular_label{
+    font-size: 1.5rem;
+    padding-left: 0;
+    cursor: default !important;
+}
+
+li {
+    text-align: center;
+}
+
+.force_radius {
+    border-radius: 5rem !important;
+}
+
+
+.the_invisible {
+    display: none;
+}
+
+#result, #coment {
+    text-align: center;
+}
+
+/* .li_radius_top {
+    border-radius: 1rem 1rem 0 0 !important;
+}
+
+.li_radius_bottom {
+    border-radius: 0 0 1rem 1rem !important;
+} */
